@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+
+.topbar{
+display: flex;
+background-color: rgb(240, 240, 240);
+overflow: hidden;
+height: 300px;
+align-items: flex-start;
+margin: auto;
+width: 100%;
+box-shadow:inset 0px 0px 0px 2px rgb(57,57,57)
+}
+
+.navbar{
+display : flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+background-color:rgb(57,57,57);
+margin: auto;
+width: 100%;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+gap: 10%;
+}
+
+.navbar a{
+color: rgb(221, 221, 221);
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+}
+
+.navbar a:hover{
+color: rgb(207, 15, 15);
+text-decoration: underline;
+transition: 0.4s;
+}
+.pokemonpromo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 15px;
+}
+
+.logo {
+display: flex;
+margin-top: 35px;
+position:relative;
+margin-right: auto;
+margin-left: auto;
+}
+
+.logo:hover{
+transition-duration: 0.5s;
+transform: scale(1.1);
+}
+
+.aboutus{
+padding: 10px;
+margin: 30px;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+background-color: rgb(240, 240, 240);
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.contactus{
+background-color: rgb(233, 233, 233); 
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+margin: 10px;
+padding: 15px;
+}
+
+.contactustext{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(26, 26, 26);
+}
+
+.contactustext a{
+font-size: 32px;
+text-decoration: none;
+color: rgb(26, 26, 26);
+}
+
+.contactustext p{
+font-size: 23px;
+}
+
+.contactustext a:hover{
+text-decoration: underline;
+color: rgb(161, 15, 15);
+}
+
+.pokebanner img{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropbtn {
+margin: 11px;
+display: flex;
+background-color: rgb(240, 240, 240);
+color: rgb(26, 26, 26);
+padding: 16px;
+font-size: 35px;
+border: none;
+}
+
+.dropdown {
+margin: 11px;
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(39, 39, 39);
+padding: 13px 17px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+background-color: rgb(150, 150, 150);
+transition-duration: 0.5s;
+transform: scale(1.1);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: rgb(241, 241, 241);
+transition-duration: 0.5s;
+transform: scale(1.3);
+}
+
+.banner{
+text-align: center;
+width: 100%;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.about{
+white-space: nowrap;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+display: flex;
+align-items: center;
+flex-direction: row;
+background-color: rgb(190, 190, 190);
+}
+
+
+.about img{
+margin: 40px;
+padding: 10px;
+height: 500px;
+width: 500px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.about p{
+word-wrap: break-word;
+white-space: normal;
+position: relative;
+margin-right: auto;
+line-height: 60px;
+padding: 50px;
+margin-left: auto;
+text-align: left;
+font-size: 45px;
+font-family:Arial, Helvetica, sans-serif;
+color: rgb(57,57,57)
+}
+
+.socials{
+margin-top: 90px;
+flex-direction: row;
+display: flex;
+justify-content: center;
+}
+
+.twitter:hover{
+background-image: url(images/TwitterIconHover.png);
+background-size: 112px, 112px;
+transition-duration: 1s;
+transform: scale(1.1);
+background-repeat: no-repeat;
+}
+
+.youtube:hover{
+background-image: url(images/YoutubeIconHover.png);
+background-size: 112px, 112px;
+transition-duration: 1s;
+transform: scale(1.1);
+background-repeat: no-repeat;
+}
+ 
+.status{
+background-color: rgb(57,57,57);
+margin: 10px;
+padding: 10px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+height: 40px;
+}
+
+
+.status h1{
+font-size: 35px;
+color: white;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin: auto;
+}
+
+.items{
+display: flex;
+flex-flow: row wrap;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+margin: 15px;
+padding: 25px;
+background-color: rgb(233, 233, 233);
+}
+
+.items img{
+height: 310px;
+width: 310px;
+padding: 5px;
+margin: 5px;
+}
+
+.items img:hover{
+transition-duration: 0.5s;
+transform: scale(1.1);
+}
+
+.items p{
+font-size: 26px;
+color: rgb(14, 14, 14);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.items a{
+font-size: 18px;
+text-decoration: none;
+color: rgb(48, 48, 48);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.items a:hover{
+text-decoration: underline;
+}
+
+.productlist{
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+margin: 10px;
+padding: 5px;
+text-align: left;
+}
+
+.itemimg{
+padding: 10px;
+margin: 50px;
+float: left;
+display: flex;
+align-items: center;
+}
+
+.iteminfo{
+white-space: nowrap;
+height: 320px;
+display: block;
+padding: 120px;
+line-height: 50px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.iteminfo h1{
+font-size: 32px;
+}
+
+.iteminfo h2{
+font-size: 42px;
+}
+
+.iteminfo h3{
+font-size: 28px;
+}
+
+.iteminfo button{
+border-style: none;
+border-radius: 30%;
+color: rgb(240, 240, 240);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 17px;
+background-color: rgb(207, 15, 15);
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.iteminfo button:hover{
+background-color: rgb(161, 15, 15); 
+}
+.itemimg img{
+display: block;
+left: 20%;
+margin: 30px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.itemimg img:hover{
+transition-duration: 0.5s;
+transform: scale(1.05);
+}
+
+.itemdesc{
+display: block;
+margin: 35px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 20px;
+}
+
+.itemdesc h1{
+color: rgb(207, 15, 15);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 28px;
+}
+
+.itemdesc p{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(31, 31, 31);
+font-size: 18px;
+}
